@@ -9,7 +9,7 @@ dotenv.config();
 
 const app = express();
 app.use(cors({
-  origin: 'https://f-veiculos-ncb9ii71m-alefs-projects-16b120f4.vercel.app/' // Substitua pela URL do seu front-end
+  origin: 'https://f-veiculos-ncb9ii71m-alefs-projects-16b120f4.vercel.app' // Substitua pela URL do seu front-end
 }));
 const PORT = process.env.PORT || 5000;
 
